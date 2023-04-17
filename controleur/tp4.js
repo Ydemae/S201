@@ -1,4 +1,4 @@
-import { vueTp4 } from "class_tp4";
+import { vueTp4 } from "/class_tp4";
 vueTp4.init({ divFormulaire: document.querySelector('[id=div_formulaire]'),
     divRecap: document.querySelector('[id=div_recap]'),
     divFormBoutons: document.querySelector('[id=div_formulaire_boutons]'),
