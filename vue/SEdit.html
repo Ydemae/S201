@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Gestionnaire d'infractions</title>
+        <link type="text/css" rel="stylesheet" href="./css/S.css">
+    </head>
+    <body>
+        <header>Détail d'une infraction</header>
+        <div id="identific">
+            <h1>IDENTIFICATION</h1>
+            <div id="id_col">
+                <div>
+                    <label for="edt_num">numéro</label>
+                    <input type="number" name="edt_num" id="edt_num">
+                </div>
+                <div>
+                    <label for="edt_date">le</label>
+                    <input type="date" name="edt_date" id="edt_date">
+                </div>
+            </div>
+        </div>
+        <div id="Vehicule">
+            <h1>VEHICULE</h1>
+            <div id="Vehic_col">
+                <div>
+                    <label for="edt_immat">immatriculation</label>
+                    <input type="text" name="edt_immat" id="edt_immat">
+                </div>
+                <label for="edt_immat">Renault Kangoo<br> Immatriculé le 10/07/2018</label>
+                <label for="edt_immat">Propriétaire : <br>CAVALLI Frédéric<br>permis obtenu le 01/02/2011</label>
+            </div>
+        </div>
+        <div id="Conducteur">
+            <h1>CONDUCTEUR</h1>
+            <div id="conduct_col">
+                <div>
+                    <label for="edt_permis">n°permis</label>
+                    <input type="text" name="edt_permis" id="edt_permis">
+                </div>
+                <label for="edt_permis">CAVALLI Frédéric<br>Permis obtenu le 01/02/2011</label>
+            </div>
+        </div>
+        <div id="delits">
+            <h1>DELITS</h1>
+            <h2 name="delC" id="delC">Delits constatés : 2</h2>
+            <div class="TAS">
+                <table class="delit">
+                    <tr>
+                        <th>nature</th>
+                        <th>tarif</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Excès de vitesse</td>
+                        <td>220.00</td>
+                        <td><input type="image"  src="css/poubelle.png" height="25px" width="25px" alt="suppr"></td>
+                    </tr>
+                    <tr>
+                        <td>Outrage à Agent</td>
+                        <td>450.00</td>
+                        <td><input type="image"  src="css/poubelle.png" height="25px" width="25px" alt="suppr"></td>
+                    </tr>
+                </table>
+                <select size="5" id="select_inf"></select>
+            </div>
+            <input type="button" class="btnAjouter" id="btn_ajouter" value="Ajouter">
+        </div>
+        <div class="boutons">
+            <input type="button" id="btn_retour" value="Retour">
+            <input type="button" id="btn_valider" class="btnAjouter" value="Valider">
+            <input type="button" id="btn_annuler" value="Annuler">
+        </div>
+    </body>
+    <script type="module" src="../controleur/S.js"></script>
+</html>

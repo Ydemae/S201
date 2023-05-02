@@ -1,0 +1,123 @@
+header{
+    background-color: #555555;
+    padding: 1rem;
+    color: white;
+}
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+}
+th, td{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+
+table{
+	width:100%; 
+	border-collapse:collapse; 
+}
+tr:nth-child(odd){ 
+	background: #DDDDDD;
+}
+tr:nth-child(even){
+	background: white;
+}
+.thd{
+    background-color: #AAAAAA;
+}
+.btnAjouter{
+    background-color: #91D5FF;
+    padding: 0.5rem;
+    border: none;
+    margin: 1rem;
+}
+#btn_aj_inf{
+    position: absolute;
+    right: 0;
+}
+#edt_num{
+    width: 2rem;
+}
+h1{
+    width: 10rem;
+    background-color: #555555;
+    padding: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#id_col{
+    margin-top: 1rem;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#Vehic_col{
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr;
+}
+#conduct_col{
+    margin-top: 1rem;
+    margin-left: 8.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.9fr;
+}
+
+label{
+    margin: 5px;
+}
+input[type=text], input[type=number], input[type=date]{
+    height: 1.3rem;
+}
+#delC{
+    background-color: #555555;
+    color: white;
+    padding: 0.5rem;
+    font-weight: lighter;
+    width: 75%;
+}
+#delits{
+    width: 70%;
+}
+#btn_ajouter{
+    float: right;
+}
+.boutons{
+    margin-top: 5rem;
+    border-top: 1px solid #555555;
+}
+.boutons input{
+    margin:0.5rem;
+    float:right;
+}
+
+input[type=button]{
+    cursor: pointer;
+}
+#btn_retour{
+    padding: 0.5rem;
+    background-color: #A4FFA0;
+    border: none;
+}
+#btn_annuler{
+    padding: 0.5rem;
+    background-color: #FF4848;
+    border: none;
+}
+.TAS{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+#btn_ajouter{
+    float: left;
+}
+select{
+    margin-left: 10px;
+}
